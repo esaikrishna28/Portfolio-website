@@ -422,20 +422,20 @@
   }
 
   #project1{
-    background-image: url(./images/projects/Project1.png);
+    background-image: url(./images/projects/weatherapp.PNG);
   }
 
   #project2{
     margin-left:120px;
-    background-image: url(./images/projects/Project2.png);
+    background-image: url(./images/projects/stock.jpg);
   }
   #project3{
-    background-image: url(./images/projects/Project3.png);
+    background-image: url(./images/projects/devdet.PNG);
   }
-  #project4{
+  /* #project4{
     margin-left:120px;
     background-image: url(./images/projects/Project4.png);
-  }
+  } */
 
   @media (max-width:1300px) {
     .page-header {
@@ -568,6 +568,7 @@
   margin-top: 1rem;
   width:85%;
   text-align: justify;
+  font-size: x-large;
 }
 
 .skill-subHeading p{
@@ -682,4 +683,9 @@ footer{
 .icon-wrapper{
   display:flex;
   gap:1rem;
+}
+.hiremebtn{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
